@@ -702,3 +702,8 @@ a[href="#"][data-pendiente]{cursor:not-allowed}
 .aporta-lead{margin:.75rem 0 0;color:var(--mut);font-size:1.0625rem}
 /* Cierre: 2 CTA (Precios · Reunión o llamada), como CPEA; CAI solo 1 */
 .cierre-cta{flex-wrap:wrap;gap:1rem}
+/* EMT: logo oficial PNG (Rosario, 04/11). Cabecera a color, horizontal; el logo ya lleva «emt», así que no se repite la sigla. Pie en blanco como CAI/COB. */
+.marca-emt img{height:44px;width:auto;max-width:min(40vw,140px)}
+.marca-emt .marca-sigla{display:none}
+@media (max-width:860px){.marca-emt img{height:38px;width:auto}}
+.pie-logo-emt{height:40px!important;width:auto!important}
