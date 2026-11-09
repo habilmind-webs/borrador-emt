@@ -691,9 +691,7 @@ a[href="#"][data-pendiente]{cursor:not-allowed}
 /* Ficha: 4 datos (sin «Administración e interpretación», que el brief del EMT no trae) */
 .ft-specs.ft-specs-4{grid-template-areas:"apl idi" "dur dur" "edad edad"}
 @media (min-width:768px){.ft-specs.ft-specs-4{grid-template-areas:"apl apl dur dur idi idi" "edad edad edad edad edad edad"}}
-/* Indicadores: tarjetas solo con título (el brief no trae descripciones) + texto de cierre */
-.ind-solo h3{margin-bottom:0}
-.ind-cierre{margin:1.5rem 0 0;max-width:48rem}.ind-cierre p{margin:0 0 .5rem;color:var(--mut)}
+/* Indicadores: 4 tarjetas con título + párrafo en rejilla r2 (2×2 desde 700px, 1 col en móvil; alturas iguales por grid) — 09/11 */
 /* Informes: entradilla «El informe reúne:» */
 .inf-intro{margin-top:-.5rem}
 /* #informes: diapositivas con hueco SVG /img/informes/emt-informe-N-pendiente.svg hasta que lleguen las capturas */
