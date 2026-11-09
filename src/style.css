@@ -685,7 +685,7 @@ a[href="#"][data-pendiente]{cursor:not-allowed}
 .marca-emt img{height:44px;width:auto;max-width:min(72vw,260px);object-fit:contain;object-position:left center}
 @media (max-width:860px){.marca-emt img{height:38px;width:auto}}
 .pie-logo-emt{height:40px!important;width:auto!important;max-width:100%;margin:0!important;display:inline-block!important;filter:brightness(0) invert(1)!important}
-/* Ficha: 2 notas (ICCE e I+D+i); logo-idi 153×96, height 1.7rem (más discreto junto al texto) */
+/* Ficha: 2 notas (ICCE e I+D+i); logo-idi 160×96 (nuevo 09/11), height 1.7rem (más discreto junto al texto) */
 .ft-autores-nota+.ft-autores-nota{margin-top:-.75rem}
 .ft-autores-nota.ft-nota-hm img{width:auto;height:1.7rem}
 /* Ficha: 4 datos (sin «Administración e interpretación», que el brief del EMT no trae) */
