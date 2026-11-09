@@ -704,6 +704,3 @@ a[href="#"][data-pendiente]{cursor:not-allowed}
 .cierre-cta{flex-wrap:wrap;gap:1rem}
 /* EMT 05/11: logo completo ya incluye bloque «examen… / para colegios»; sin .marca-txt ni span EMT. Reglas arriba. */
 
-/* 09/11 · Rosario vía DC: #informes con 3 tarjetas, una fila de 3 en escritorio con alturas iguales, 1 columna en móvil */
-@media (min-width:700px){.inf-tarjetas.inf-t3{grid-template-columns:repeat(3,1fr)}}
-@media (min-width:1024px){.inf-tarjetas.inf-t3{grid-template-columns:repeat(3,1fr);gap:1rem}.inf-t3>.tarjeta{padding:1.25rem}}
